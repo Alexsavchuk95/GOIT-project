@@ -1,0 +1,26 @@
+.date{
+    margin-bottom: 44px;
+}
+
+.mounth{
+    margin-bottom: 24px;
+}
+.bonus{
+    font-family: "Acrom";
+    font-size: 14.8px;
+    line-height: 1.4;
+    margin: 0 auto;
+    text-align: start;
+    width: 240px;
+    color: #f39867;
+    position: relative;
+}
+.bonus::after{
+    content: '';
+    background-image: url("/images/Shape\ 10.png");
+    width: 20px;
+    height: 31px;
+    position: absolute;
+    right: 250px;
+    top: 6px;
+}

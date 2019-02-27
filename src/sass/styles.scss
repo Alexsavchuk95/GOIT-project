@@ -1,0 +1,58 @@
+/*
+   Import partials below
+*/
+@import './reset.scss';
+@import './normalize';
+@import './base';
+
+//Header
+@import './header/header';
+@import './header/navigation';
+@import './header/logo';
+@import './header/vector-mail';
+@import './header/contacs';
+
+// Title
+@import './title/title';
+
+// Manager-zero
+@import './section-manger/manager-zero';
+@import './section-manger/manager-about';
+@import './section-manger/manager-text';
+@import './section-manger/title-manager';
+@import './section-manger/manager-layer';
+
+// Course-after
+@import './section-after/course-after';
+@import './section-after/title-course';
+@import './section-after/list-items';
+@import './section-after/list-icon';
+
+// Students
+@import './section-students/future-students';
+@import './section-students/title-future';
+@import './section-students/container-future';
+@import './section-students/list-future';
+@import './section-students/list-p';
+@import './section-students/list-number';
+@import './section-students/items';
+
+// Programm
+@import './section-proframm/future-programm';
+@import './section-proframm/future-title';
+@import './section-proframm/future-list';
+@import './section-proframm/future-item';
+@import './section-proframm/future-number';
+@import './section-proframm/future-icons';
+@import './section-proframm/list-title';
+@import './section-proframm/future-text';
+
+// Stages
+@import './section-stages/title-stages';
+@import './section-stages/stages-list';
+@import './section-stages/stages-item';
+@import './section-stages/stages-text';
+@import './section-stages/price';
+@import './section-stages/stock';
+@import './section-stages/date-bonus';
+@import './section-stages/footer-btn';

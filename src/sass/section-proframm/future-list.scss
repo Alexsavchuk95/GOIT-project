@@ -1,0 +1,21 @@
+.future-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.future-list::after{
+    content: 'PROGRAMM';
+    opacity: .05;
+    color: #000;
+    font-family: "Acrom";
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    position: absolute;
+    top: 190px;
+    left: 155px;
+    transform-origin: center;
+    transform: rotate(90deg);
+}

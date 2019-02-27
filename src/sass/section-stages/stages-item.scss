@@ -1,0 +1,47 @@
+.stages-item{
+    font-family: 'Roboto', sans-serif;
+    width: 216px;
+    height: 80px;
+    border-left: 6px solid #f26228;
+    margin-bottom: 46px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: #fff;
+    position: relative;
+}
+
+.stages-item1::after{
+    content: '';
+    width: 88px;
+    height: 7px;
+    background-image: url("/images/stages/Vector\ Smart\ Object.png");
+    position: absolute;
+    left: 216px;
+    bottom: 36.5px;
+}
+.stages-item2::after{
+    content: '';
+    width: 7px;
+    height: 32px;
+    background-image: url("/images/stages/Vector\ Smart\ Object\ copy\ 3.png");
+    position: absolute;
+    left: 104px;
+    top: 88px;
+}
+.stages-item3::after{
+    content: '';
+    width: 88px;
+    height: 7px;
+    background-image: url("/images/stages/Vector\ Smart\ Object\ copy\ 4.png");
+    position: absolute;
+    right: 220px;
+    bottom: 36.5px;
+}
+.stages-item4::after{
+    content: '';
+    width: 204px;
+    height: 83px;
+    background-image: url("/images/stages/Vector\ Smart\ Object2.png");
+    position: absolute;
+    left: 100px;
+    top: 90px;
+}
